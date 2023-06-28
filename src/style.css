@@ -1,0 +1,121 @@
+:root {
+  /* https://www.color-hex.com/color-palette/1026639 */
+  background-color: #fff;
+  font-family: Calibri;
+  color: #3a424a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+}
+
+#description {
+  color: #0a3161;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  width: 96%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 14px 0px 14px;
+}
+
+#overlay {
+}
+
+#graphics-box {
+  background-color: #aef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: flex-wrap;
+  border-style: solid;
+  border-width: thin;
+  border-color: #6cf;
+  padding: 20px;
+}
+
+.county {
+  stroke: #682390;
+  stroke-width: 0.2;
+}
+
+.county:hover {
+  stroke: #fff;
+  stroke-width: 1.4;
+}
+
+#legend {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 10px 2px;
+  margin: 2px auto 10px;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+#legendSVG {
+  fill: #000;
+}
+
+.colorBlock {
+  stroke: #682390;
+  stroke-width: 0.4;
+}
+
+#tooltip {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  padding: 6px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #682390;
+  font-size: 0.8em;
+}
+
+#line1Line {
+  font-weight: bold;
+}
+
+#line2Line {
+}
+
+footer {
+  color: #57636f;
+  font-size: 0.8em;
+  margin: 2px auto;
+}
